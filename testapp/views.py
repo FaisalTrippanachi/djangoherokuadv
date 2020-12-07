@@ -7,3 +7,7 @@ def home(request):
 
 def test(request):
 	return render(request,'test.html')
+
+
+def test2(request):
+	return render(request,'fn/test2.html')
